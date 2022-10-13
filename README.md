@@ -8,3 +8,6 @@
 - `npm i`
 - `node app/server.js`
 
+
+### Running tests
+- `npm test`
