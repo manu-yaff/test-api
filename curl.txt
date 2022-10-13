@@ -1,0 +1,8 @@
+GET /
+curl -X GET localhost:2222/ --header "Content-Type: application/json"
+
+for POST /uber/login
+curl -X POST localhost:2222/uber/login --header "Content-Type: application/json" --data '{ "email": "pierre@palenca.com", "password": "MyPwdChingon123" }'
+
+for GET /uber/profile/<access_token> (generate a token and replace it)
+curl -X GET localhost:2222/uber/login/<token> --header "Content-Type: application/json"
